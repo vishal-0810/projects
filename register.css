@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #000000, #000000);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+label {
+  font-weight: 500;
+  margin-top: 10px;
+  display: block;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #2575fc;
+  outline: none;
+  box-shadow: 0 0 5px rgba(37,117,252,0.3);
+}
+
+.terms {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+.terms input {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.terms a {
+  color: #2575fc;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  background: #2575fc;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #6a11cb;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.login-link a {
+  color: #2575fc;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
